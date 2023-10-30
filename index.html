@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Capture, Organize, and Never Forget with NoteKeep.">
+        <meta name="keywords" content="NoteKeep">
+        <meta name="theme-color" content="#000000">
+
+        <!-- IMPORT CSS MAIN -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- IMPORT FONT AWESOME -->
+        <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/css/all.min.css">
+        <!-- IMPORT FAVICON -->
+        <link rel="shortcut icon" href="images/logo/SVG/NoteKeep_Logo_Icon.svg" type="image/x-icon">
+        
+        <!-- TITLE -->
+        <title>NoteKeep</title>
+    </head>
+    <body>
+
+        <!-- LOADER -->
+        <div class="loader-warpper" id="loader">
+            <div class="loader"></div>
+            <div class="loader"></div>
+        </div>
+
+
+        <!-- MAIN -->
+        <main>
+            <!-- NAVBAR -->
+            <nav>
+                <ul>
+                    <!-- BUTTON MOBILE NAVBAR -->
+                    <button class="far fa-bars" onclick="mobileNavbar()" title="Menu"></button>
+
+                    <!-- LOGO -->
+                    <a href="" title="NoteKeep" aria-label="NoteKeep"><img src="images/logo/SVG/NoteKeep_Logo_Icon.svg" alt="" class="aside-left-logo"></a>
+
+                    <!-- FORM: SEARCH -->
+                    <form action="" method="post">
+                        <span class="far fa-search"></span>
+                        <input type="search" placeholder="Search Notes..." aria-placeholder="Search..." name="" id="">
+                    </form>
+                </ul>
+                <ul>
+                    <a href="javascript:void(0)"><img src="images/avatar/avatar-2.jpg" alt=""></a>
+                </ul>
+            </nav>
+            
+            <!-- ASIDE -->
+            <!-- ASIDE LEFT -->
+            <aside class="aside-left" id="mobileNavbar">
+                <!-- BUTTON MOBILE NAVBAR CLOSE -->
+                <button class="far fa-times-circle" onclick="mobileNavbar()" title="Menu"></button>
+
+                <!-- LOGO -->
+                <a href="index.html" title="NoteKeep" aria-label="NoteKeep"><img src="images/logo/SVG/NoteKeep_Logo_Icon.svg" alt="" class="aside-left-logo"></a>
+
+                <!-- ASIDE LEFT MEUN -->
+                <div class="aside-left-menu">
+                    <a href="index.html" title="Home" aria-label="Home" class="aside-left-menu-active"><li class="far fa-home"></li> <span>Home</span></a>
+                    <a href="javascript:void(0)" title="Deleted" aria-label="Deleted"><li class="far fa-trash"></li> <span>Deleted</span></a>
+                    <a href="javascript:void(0)" title="Settings" aria-label="Settings"><li class="far fa-cog"></li> <span>Settings</span></a>
+                </div>
+            </aside>
+            <!-- ASIDE RIGHT -->
+            <aside class="aside-right">
+                <!-- WISH USER -->
+                <h4 class="wishUser"><span id="wishUserStatus"></span> Mahdi Rabiee 👋</h4>
+
+                <!-- MENUBAR -->
+                <div class="menubar">
+                    <a href="javascript:void(0)" class="aside-right-menubar-active"><li>Notes</li></a>
+                    <a href="javascript:void(0)"><li>Importnat</li></a>
+                </div>
+
+                <!-- GRID CARD NOTES -->
+                <div class="grid-card-notes">
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Thursday, Oct 19, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Thursday, Oct 19, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Friday, Oct 20, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Saturday, Oct 21, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Saturday, Oct 21, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Saturday, Oct 21, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Monday, Oct 23, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Monday, Oct 23, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Wednesday, Oct 25, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-note" ondblclick="editNote()">
+                        <div class="card-note-header">
+                            <h4>Capture, Organize, and Never Forget with NoteKeep</h4>
+                            <a href="javascript:editNote()"><button title="Edit Note"><span class="far fa-pencil"></span></button></a>
+                        </div>
+                        <div class="card-note-body">
+                            <p>Capture, Organize, and Never Forget with NoteKeep</p>
+                        </div>
+                        <div class="card-note-footer">
+                            <p>Wednesday, Oct 25, 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+
+        <!-- BUTTON ADD NOTE -->
+        <button class="far fa-plus button-add-note" onclick="newNote()" title="Add Note"></button>
+
+
+        <!-- NEW NOTE -->
+        <div class="overlay-edit-note" id="newNote">
+            <div class="edit-note">
+                <div class="edit-note-header">
+                    <button onclick="newNote()" title="Back"><li class="far fa-angle-left"></li></button>
+                    <h4>New Note</h4>
+                    <button onclick="toastNotifynewNote()" title="Apply"><li class="far fa-check-circle"></li></button>
+                </div>
+                <div class="edit-note-body">
+                    <input type="text" placeholder="Title Here">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Type Something..."></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- TOAST NOTIFY: NEW NOTE -->
+        <div class="toast-notify" id="toastNotifynewNote">
+            <li class="far fa-check-circle"></li>
+            <h5>Notes Were Created Successfully.</h5>
+        </div>
+
+        
+        <!-- EDIT NOTE -->
+        <div class="overlay-edit-note" id="editNote">
+            <div class="edit-note">
+                <div class="edit-note-header">
+                    <button onclick="editNote()" title="Back"><li class="far fa-angle-left"></li></button>
+                    <h4>Edit Note</h4>
+                    <button onclick="toastNotify()" title="Apply"><li class="far fa-check-circle"></li></button>
+                </div>
+                <div class="edit-note-body">
+                    <input type="text" placeholder="Title Here" value="Capture, Organize, and Never Forget with NoteKeep">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Capture, Organize, and Never Forget with NoteKeep"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- TOAST NOTIFY: EDIT NOTE -->
+        <div class="toast-notify" id="toastNotify">
+            <li class="far fa-check-circle"></li>
+            <h5>Changes Were Successfully Applied.</h5>
+        </div>
+
+
+
+        <!-- IMPORT JS -->
+        <script src="js/app.js"></script>
+    
+    </body>
+</html>
